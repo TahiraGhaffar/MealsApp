@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meal Stop</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">Meal <span>Stop</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="searchPage.html">Order Now</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div class="content">
+        <h2>Coffee House</h2>
+        <p>Would you like to start the day with a nice coffee?</p>
+        <video id="videoBG" poster="videobg1_Moment.jpg" autoplay muted loop>
+            <source src="new_Trim.mp4" type="video/mp4">
+        </video>
+    </div> -->
+
+    <div class="video-container">
+        <video id="videoBG" poster="img/poster.png" autoplay muted loop>
+            <source src="https://static.videezy.com/system/resources/previews/000/025/336/original/MM002732____BBQ_161____1080p____A054_C116_03279U_001.mp4"   />
+        </video>
+        <div class="caption">
+          <h2>Health and Taste</h2>
+          <p>We are serving now</p>
+        </div>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h2>Menu</h2>
+            <!-- <h4>Coffee House Menu</h4> -->
+        </div>
+        <div class="menu-content">
+            <div class="asian">
+                <div class="asian-image">
+                    <img src="img/asian.jpeg" alt="" width="100" height="250">
+                </div>
+                <div class="asian-body">
+                    <h2>Asian Cuisine</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+            <div class="italian">
+                <div class="italian-image">
+                    <img src="img/italian.jpeg" alt="" width="100" height="250">
+                </div>
+                <div class="italian-body">
+                    <h2>Italian Cuisine</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+            <div class="chinese">
+                <div class="chinese-image">
+                    <img src="img/chinese.jpg" alt="" width="100" height="250">
+                </div>
+                <div class="chinese-body">
+                    <h2>Chinese Cuisine</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="shop" id="shop">
+        <div class="shop-header">
+            <h2>Shop</h2>
+            <!-- <h4>Coffee House Drinks</h4> -->
+        </div>
+        <div class="shop-box">
+            <div class="item-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pan pizza.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">4.45$</label>
+                        <h3>Pan Pizza</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/sandwich.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">3.75$</label>
+                        <h3>Sandwich</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/choco lava.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">3.95$</label>
+                        <h3>Choco-lava</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/strawberry-shake.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">2.79$</label>
+                        <h3>Strawberry-Shake</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pasta.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">3.45$</label>
+                        <h3>Red Sauce Pasta</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/barbeque.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">3.25$</label>
+                        <h3>Barbeque</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/coffee.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i> <!-- fa-solid fa-star  are icons from 'fontAwesome'-->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">6.60$</label>
+                        <h3>Coffee</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-8">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/burger.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">5.65$</label>
+                        <h3>Burger</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <!-- <div class="contact-box">
+            <div class="contact-image">
+                <img src="img/LOGO2.png">
+            </div>
+        </div> -->
+        <div class="contact-box">
+            <div class="card middle">
+            <div class="front">
+                <img src="img/LOGO3.jpg" alt="">
+            </div>
+            <div class="back">
+                <div class="back-content middle">
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <div class="contact-body">
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="form-content">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" required>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <!-- <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div> -->
+            <div class="copyright">
+                <label>Copyright &copy; 2023</label>
+            </div>
+            <div class="brand">
+                <a href="#"><label>Meal <span>Stop</span></label></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
